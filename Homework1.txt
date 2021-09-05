@@ -1,0 +1,27 @@
+1) pwd
+2) mkdir Terminal
+3) cd Terminal
+4) mkdir folder1 folder2 folder3
+5) cd folder1
+6) touch file1.txt file2.txt file3.txt file4.json file5.json
+7) mkdir star1 star2 star3
+8) ls -la
+9) vim file1.txt
+10) Нажать кнопку "i", ввести текст "Hasta la vista, baby"
+11) Нажать кнопку "Esc", ввести ":wq"
+12) cd ..
+13) mv /d/courses/group_22/Terminal/folder1{file4.json,file5.json} /d/courses/gr
+oup_22/Terminal/folder2
+14) cp /d/courses/group_22/Terminal/folder1/{file2.txt,file3.txt} /d/courses/gro
+up_22/Terminal/folder3
+15) find /d/courses/group_22/Terminal/ -name file1.txt
+Ответ: /d/courses/group/Terminal/folder1/file1.txt
+16) tail -f /d/courses/group_22/Terminal/folder1/five1.txt|grep "baby"
+17) head -n3 /d/courses/group_22/Terminal/folder1/file1.txt
+18) tail -n3 /d/courses/group_22/Terminal/folder1/file1.txt
+19) less -N /d/courses/group_22/Terminal/folder1/file1.txt
+20) date
+
+Задание *
+
+1) curl 'http://162.55.220.72:5005/object_info_3?name=Vadim&age=32&salary=1000'
