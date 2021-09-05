@@ -21,3 +21,16 @@
 
 Задание*
 1) curl 'http://162.55.220.72:5005/object_info_3?name=Vadim&age=32&salary=1000'
+2) vim Homework2.sh
+   Вводим следующие команды:
+#!/bin/bash
+cd Terminal
+mkdir folder1 folder2 folder3
+cd folder1
+touch file1.txt file2.txt file3.txt file4.json file5.json
+mkdir star1 star2 star3
+ls -la
+mv /d/courses/group_22/Terminal/folder1/{file4.json,file5.json} /d/courses/group_22/Terminal/
+   Нажимаем кнопку "Esc", вводим ":wq"
+   chmod +x Homework2.sh
+   sh Homework2.sh
