@@ -4,7 +4,7 @@ name_1 = str(662)
 name_2 = str(14)
 
 
-#2)  ГОТОВО! Создать 4 переменных типа Integer с разными значениями.
+#2) Создать 4 переменных типа Integer с разными значениями.
 like_1 = int(17.2)
 like_2 = int(1.8)
 like_3 = int(10.9)
@@ -48,41 +48,41 @@ print(good_3 != good_1)
  
 #6) Реализовать 10 вариантов сравнения int переменных с операторами >, <, >=, <=, != и условными выражениями (end, or, not). Pезультаты весвести в консоль.
 
-#if like_1 > 19 or like_2 < 10: #or - один оператор должен быть "True" (т.е равняться 1)
-      #print("like_1 не больше 19, like_2 < 10")
-#if like_3 > 15 or like_1 >= 12:
-      #print("like_3 не больше 15, like_1 >= 12")
-#if like_4 <= 6 or like_1 >= 18:
-      #print("like_4 <= 6, like_1 не больше либо равно 18")
-#if like_3 != 15 or like_2 < 25:
-      #print("like_3 не равно 15, like_2 < 25")
-#if like_2 >= 1.8 and like_1 != 17.2: #and - все операторы должны быть "True" (т.е равняться 1)
-      #print("True")
-#if like_4 != 62 and like_3 > 8:
-      #print("Yes, like_4 not 62 and like_3 more 8")
-#if like_3 = 10.9 and like_4 < 3:
-      #print("True")
-#if not like_1 > 118: #not - один оператор должен быть "False" (т.е равняться нулю)
-      #print("like_1 не больше 118")
-#if not like_3 <= 5:
-      #print("Нет, like_3 не больше либо равно 5")
-#if not like_4 < 3:
-      #print("like_4 не меньше 3""\n")
+if like_1 > 19 or like_2 < 10: #or - один оператор должен быть "True" (т.е равняться 1)
+      print("like_1 не больше 19, like_2 < 10")
+if like_3 > 15 or like_1 >= 12:
+      print("like_3 не больше 15, like_1 >= 12")
+if like_4 <= 6 or like_1 >= 18:
+      print("like_4 <= 6, like_1 не больше либо равно 18")
+if like_3 != 15 or like_2 < 25:
+      print("like_3 не равно 15, like_2 < 25")
+if like_2 >= 1.8 and like_1 != 17.2: #and - все операторы должны быть "True" (т.е равняться 1)
+      print("True")
+if like_4 != 62 and like_3 > 8:
+      print("Yes, like_4 not 62 and like_3 more 8")
+if like_3 = 10.9 and like_4 < 3:
+      print("True")
+if not like_1 > 118: #not - один оператор должен быть "False" (т.е равняться нулю)
+      print("like_1 не больше 118")
+if not like_3 <= 5:
+      print("Нет, like_3 не больше либо равно 5")
+if not like_4 < 3:
+      print("like_4 не меньше 3""\n")
 
 
 #7) Сделать скрипт используя функцию input().
 #   1. Функция должна на вход принимать целое число.
 #   2. Выводить должна "Вы ввели число = (введенное число), которое (меньше/больше/равно) 30".
 
-#a = int(input()) 
-#if a < 30:
-      #print("you entered a number " + str(a) +  " that is less than 30")
-#elif a > 30:
-      #print("you entered a number " + str(a) + " that is greater than 30")
-#elif a == 30:
-      #print("you entered a number " + str(a) + " that is equal to 30")
-#else:
-      #print("Error!a")
+a = int(input()) 
+if a < 30:
+      print("you entered a number " + str(a) +  " that is less than 30")
+elif a > 30:
+      print("you entered a number " + str(a) + " that is greater than 30")
+elif a == 30:
+      print("you entered a number " + str(a) + " that is equal to 30")
+else:
+      print("Error!a")
 
 
 #8) Сделать скрипт используя функцию input().
@@ -90,16 +90,16 @@ print(good_3 != good_1)
 #   2. Внутри функции должно сгенерироваться рандомное целое число (import random)...(random.randint(1, 100)).
 #   3. Выводить должна "Вы вели число = (введённое число) которое (меньше/больше/равно) сгенерированному числу" .
 
-#b = int(input()) 
-#import random
-#if b < 20:
-      #print("you entered a number " + str(b) + " that is less than " + str(random.randint(1, 100)))
-#elif b > 50:
-      #print("you entered a number " + str(b) + " that is greater than " + str(random.randint(1, 100)))
-#elif b == 87:
-      #print("you entered a number " + str(b) + " that equals " + str(random.randint(1, 100)))
-#else:
-      #print("Error!b")
+b = int(input()) 
+import random
+if b < 20:
+      print("you entered a number " + str(b) + " that is less than " + str(random.randint(1, 100)))
+elif b > 50:
+      print("you entered a number " + str(b) + " that is greater than " + str(random.randint(1, 100)))
+elif b == 87:
+      print("you entered a number " + str(b) + " that equals " + str(random.randint(1, 100)))
+else:
+      print("Error!b")
 
 
 #9) Сделать скрипт используя функцию input().
