@@ -1,0 +1,12 @@
+1. ID
+2. Title/Summary
+3. Environment
+4. Precondition
+5. Software Test Requirements
+6. Actual result
+7. Expected result
+8. Severity
+9. Priority
+10. Attachment
+11. Workaround
+12. Reproducibility
