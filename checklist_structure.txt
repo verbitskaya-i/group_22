@@ -1,1 +1,8 @@
-1.
+1. ID
+2. Title (What? Where? Under what condition?)
+3. Inputs
+4. Expected result
+5. Actual result (Expected result did not match)
+6. Status (pass/fail)
+7. Bug (link)
+
