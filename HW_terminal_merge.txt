@@ -1,0 +1,119 @@
+______________________________________________
+1. На локальном репозитории сделать ветки для:
+- Postman
+- Jmeter
+- CheckLists
+- Bag Reports
+- SQL
+- Charles
+- Mobile testing
+2. Запушить все ветки на внешний репозиторий
+____________________________________________
+
+cd d/courses/group_22 (main)
+git branch //выводит список веток
+git checkout -b Postman //создаем ветку Postman
+git commit -m "postman"
+git push
+
+git checkout -b Jmeter
+git commit -m "jmeter"
+git push
+
+git checkout -b CheckLists
+git commit -m "checklist"
+git push
+
+git checkout -b Bug_reports
+git commit -m "bugreports"
+git push
+
+git checkout -b SQL
+git commit -m "sql"
+git push
+
+git checkout -b Jmeter
+git commit -m "jmeter"
+git push
+
+git checkout -b Charles
+git commit -m "charles"
+git push
+
+git checkout -b Mobile_testing
+git commit -m "testing"
+git push
+___________________________________________________________________________
+3. В ветке Bug Reports сделать текстовый документ со структурой баг репорта
+4. Запушить структуру багрепорта на внешний репозиторий
+___________________________________________________________________________
+
+git checkout Bug_reports
+git add bug_report_structure.txt
+
+Нажимаем кнопку "i"
+1. ID
+2. Title/Summary
+3. Environment
+4. Precondition
+5. Software Test Requirements
+6. Actual result
+7. Expected result
+8. Severity
+9. Priority
+10. Attachment
+11. Workaround
+12. Reproducibility
+Нажимаем кнопку "Esc" и вводим ":wq"
+
+git commit -m "structure"
+git push
+________________________________________
+5. Вмержить ветку Bug Reports в Main
+6. Запушить main на внешний репозиторий.
+________________________________________
+
+git checkout Bug_reports
+git pull origin main --allow-unrelated-histories
+git checkout main
+git merge Bug_reports
+git add bug_report_structure.txt
+git commit -m "report"
+git push
+____________________________________________________
+7. В ветке CheckLists набросать структуру чек-листа.
+____________________________________________________
+
+git checkout CheckLists
+vim checklist_structure.txt
+
+Нажимаем кнопку "i"
+1. ID
+2. Title (What? Where? Under what condition?)
+3. Inputs
+4. Expected result
+5. Actual result (Expected result did not match)
+6. Status (pass/fail)
+7. Bug (link)
+Нажимаем кнопку "Esc" и вводим ":wq"
+____________________________________________
+8. Запушить структуру на внешний репозиторий
+____________________________________________
+
+git add checklist_structure.txt
+git commit - m "checklist"
+git push
+______________________________________________________________________
+9. На внешнем репозитории сделать Pull Request ветки CheckLists в main
+______________________________________________________________________
+
+В своем репозитории (https://github.com/verbitskaya-i/group_22) захожу в ветку "CheckLists".
+Убеждаюсь в верном перенаправлении в полях (base: main, compare: CheckLists).
+Нажимаю "Create pull request".
+___________________________________________________
+10. Синхронизировать Внешнюю и Локальную ветки Main
+___________________________________________________
+
+git checkout main
+git merge main
+
